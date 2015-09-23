@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  LocalizedTest
+
+  Created by csdc-iMac on 15/9/23.
+  Copyright (c) 2015年 csdc. All rights reserved.
+*/
+
+// App名
+CFBundleDisplayName = "LocalizedTest";
