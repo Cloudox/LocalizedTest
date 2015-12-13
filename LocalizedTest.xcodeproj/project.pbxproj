@@ -16,6 +16,11 @@
 		AD84D4C31BB2D35400523B0F /* LocalizedTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD84D4C21BB2D35400523B0F /* LocalizedTestTests.m */; };
 		AD84D4CE1BB2D4D500523B0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD84D4D01BB2D4D500523B0F /* InfoPlist.strings */; };
 		AD84D4DC1BB2D8DC00523B0F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD84D4DE1BB2D8DC00523B0F /* Localizable.strings */; };
+		B8DA3E4C1C1D528900F52368 /* ChAppName.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8DA3E471C1D528900F52368 /* ChAppName.jpeg */; };
+		B8DA3E4D1C1D528900F52368 /* ChContent.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8DA3E481C1D528900F52368 /* ChContent.jpeg */; };
+		B8DA3E4E1C1D528900F52368 /* enAppName.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8DA3E491C1D528900F52368 /* enAppName.jpeg */; };
+		B8DA3E4F1C1D528900F52368 /* EnContent.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8DA3E4A1C1D528900F52368 /* EnContent.jpeg */; };
+		B8DA3E501C1D528900F52368 /* GetSupportLan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8DA3E4B1C1D528900F52368 /* GetSupportLan.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,11 @@
 		AD84D4D31BB2D4F800523B0F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		AD84D4DD1BB2D8DC00523B0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AD84D4DF1BB2D8DD00523B0F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B8DA3E471C1D528900F52368 /* ChAppName.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChAppName.jpeg; sourceTree = "<group>"; };
+		B8DA3E481C1D528900F52368 /* ChContent.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChContent.jpeg; sourceTree = "<group>"; };
+		B8DA3E491C1D528900F52368 /* enAppName.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = enAppName.jpeg; sourceTree = "<group>"; };
+		B8DA3E4A1C1D528900F52368 /* EnContent.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EnContent.jpeg; sourceTree = "<group>"; };
+		B8DA3E4B1C1D528900F52368 /* GetSupportLan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GetSupportLan.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,11 @@
 				AD84D4A51BB2D35400523B0F /* LocalizedTest */,
 				AD84D4BF1BB2D35400523B0F /* LocalizedTestTests */,
 				AD84D4A41BB2D35400523B0F /* Products */,
+				B8DA3E471C1D528900F52368 /* ChAppName.jpeg */,
+				B8DA3E481C1D528900F52368 /* ChContent.jpeg */,
+				B8DA3E491C1D528900F52368 /* enAppName.jpeg */,
+				B8DA3E4A1C1D528900F52368 /* EnContent.jpeg */,
+				B8DA3E4B1C1D528900F52368 /* GetSupportLan.jpeg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -211,10 +226,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD84D4B21BB2D35400523B0F /* Main.storyboard in Resources */,
+				B8DA3E4F1C1D528900F52368 /* EnContent.jpeg in Resources */,
+				B8DA3E501C1D528900F52368 /* GetSupportLan.jpeg in Resources */,
+				B8DA3E4D1C1D528900F52368 /* ChContent.jpeg in Resources */,
 				AD84D4DC1BB2D8DC00523B0F /* Localizable.strings in Resources */,
 				AD84D4CE1BB2D4D500523B0F /* InfoPlist.strings in Resources */,
 				AD84D4B71BB2D35400523B0F /* LaunchScreen.xib in Resources */,
 				AD84D4B41BB2D35400523B0F /* Images.xcassets in Resources */,
+				B8DA3E4C1C1D528900F52368 /* ChAppName.jpeg in Resources */,
+				B8DA3E4E1C1D528900F52368 /* enAppName.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +469,7 @@
 				AD84D4C81BB2D35400523B0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD84D4C91BB2D35400523B0F /* Build configuration list for PBXNativeTarget "LocalizedTestTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +478,7 @@
 				AD84D4CB1BB2D35400523B0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
