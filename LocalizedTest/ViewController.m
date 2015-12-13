@@ -16,7 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     
     // 使用NSLocalizedString来调用Localization文件中设置的内容实现本地化
     // 第一个参数是要显示的内容对应的key值，第二个参数是注释，暂时没发现有什么用
