@@ -12,5 +12,6 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *locallizedLabel;// 测试本地化的Label
 
+
 @end
 
